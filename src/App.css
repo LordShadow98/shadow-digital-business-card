@@ -1,38 +1,161 @@
-.App {
+.main--about--interest >p*{
+  box-sizing: border-box;
+}
+body {
+  font-family: "Electrolize", sans-serif;
+  margin: 0;
+  color: rgb(255, 255, 255);
+  background-image: url(./images/fondo.jpg);
+  background-size: cover; 
+  background-position: center; 
+  background-repeat: no-repeat
+  
+}
+
+/* App.js style */
+.app--container {
+  border-radius: 10px;
+  margin: 20px auto;
+  padding: 20px 10px;
+  width: 517px;
+  height: 845px;
+  background-color: rgba(70, 77, 88, 0.52);
+  
+}
+
+.app--container--two {
+  border-radius: 10px;
+  margin: 20px auto;
+  background-color: rgb(35, 46, 54);
+  width: 319px;
+  height: 760px;
+  box-shadow: rgba(31, 30, 30, 0.233);
+}
+
+/* Header.js style */
+.header--container > img {
+  border-bottom-left-radius: 9px;
+  border-bottom-right-radius: 9px;
+  width: 317px;
+  height: 280px;
+}
+
+/* Main.js style */
+.main--heading {
+  font-size: 27px;
   text-align: center;
+  margin: 15px 0px 0px 0px; 
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.main--h4--one {
+  font-size: 15px;
+  text-align: center;
+  margin-top: 0;
+  margin-bottom: 10px;
+  color: rgb(257, 205, 1);
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.main--span--two {
+  display: block;
+  text-align: center;
+  font-size: 11px;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.main--content {
+  line-height: 1.09em;
+}
+
+.btn--class {
   display: flex;
-  flex-direction: column;
+  padding: 20px 10px;
+  justify-content: space-between;
+}
+
+.main--btn {
+  width: 115px;
+  height: 35px;
+  border-radius: 10.5px;
+  display: flex;
+  border: none;
+  outline: none;
   align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  text-decoration: none; 
 }
 
-.App-link {
-  color: #61dafb;
+.btn--email {
+  background-color: rgb(255, 255, 255);
+  color: rgb(0, 0, 0);
+  display: flex;
+  font-size: 16px;
+  margin-left: 21px;
+  padding: 5px 20px;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.btn--linkedin {
+  background-color: rgb(0, 119, 181);
+  color: rgb(255, 255, 255);
+  display: flex;
+  font-size: 16px;
+  margin-right: 21px;
+  padding: 5px 12px;
+  text-decoration: none; 
+}
+
+.email { 
+  height: 20px;
+  margin: 3px;
+}
+
+.linkedin {
+  height: 20px;
+  margin: 3px;
+  filter: brightness(0) invert(1);
+}
+
+.main--about--interest {
+  width: 247px;
+  height: 246px;
+  padding: 10px;
+  padding-bottom: 4px;
+  margin: 5px auto;
+  overflow: hidden;
+  font-size: 12px;
+  line-height: 1.08em;
+}
+
+.main--about--interest > p {
+  font-size: 11px;
+  text-align: justify;
+  word-spacing: 0.05em;
+}
+
+.main--about--interest > h3 {
+  margin-bottom: 3px;
+  margin-top: 4px;
+}
+
+/* Footer.js style */
+.footer--container {
+  display: flex;
+  justify-content: space-around;
+  width: 317px;
+  height: 55px;
+  margin: 0 auto;
+  padding: 2px 1px;
+  background-color: rgb(0, 0, 0);
+  border-bottom-left-radius: 9px;
+  border-bottom-right-radius: 9px;
+  
+}
+
+.footer--icon {
+  font-size: 30px;
+  filter: brightness(2);
+  margin-top: 10px;
+  margin: 10px;
+  color: rgb(255, 255, 255);
+}
+
+.footer--items {
+  margin: 2px 55px;
 }
