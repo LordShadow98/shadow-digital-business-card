@@ -1,70 +1,78 @@
-# Getting Started with Create React App
+#Shadow-digital-business-card
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+This project is a web application to display a digital business card. The application is built with React and uses reusable components for the main structure. A brief instructional on how to set up and use the application is provided below.
 
-## Available Scripts
+## Installation
 
-In the project directory, you can run:
+Clone Repository :
 
-### `npm start`
+```bash
+git clone https://github.com/LordShadow98/shadow-digital-business-card.git
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+cd shadow-digital-business-card
+```
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+Install Dependencies:
 
-### `npm test`
+```bash
+npm install
+```
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+## Usage
 
-### `npm run build`
+```
+npm start
+```
+The application will run at http://localhost:3000
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+## Project structure:
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+Project structure:
+```
+shadow-digital-business-card/
+│
+├── public/
+│   ├── favicon.ico
+│   ├── index.html
+│   └── ...
+│
+├── src/
+│   ├── components/
+│   │   ├── Footer.js
+│   │   ├── Header.js
+│   │   └── Main.js
+│   │
+│   ├── images/
+│   │   └── fondo.jpg
+│   │
+│   ├── App.css
+│   ├── App.js
+│   └── ...
+│
+├── .gitignore
+├── package.json
+├── README.md
+└── ...
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+```
 
-### `npm run eject`
+src/: Contains the source code of the application.
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+components/: Folder that stores the application components.
+Header.js: Component for the header.
+Main.js: Main component that shows the information and contact buttons.
+Footer.js: Footer component that includes links to social networks.
+public/: Contains static files and the main HTML file.
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+index.html: Main HTML file that includes the entry point for the React application.
+Customization:
+Application Background:
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+You can change the background image by setting the background-image property in src/App.css:
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+Main Content:
 
-## Learn More
+Customize the main information, such as name, title and links, by modifying the Main component in src/components/Main.js.
+Social Networks:
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+Add or modify social network links in the Footer component in src/components/Footer.js. You can use FontAwesome icons for this.
