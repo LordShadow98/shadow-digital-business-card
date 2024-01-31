@@ -13,14 +13,14 @@ export default function Main() {
                 FullStack Student in Code C13
             </h4>
             <span className="main--span--two main--content">
-                Website Link Channel
+                Attitude: sweet intoxication or bitter daily poison
             </span>
 
             <div className="btn--class">
 
                 <a href="mailto:Julianrenteria57.jr@gmail.com" target="_blank" rel="noopener noreferrer">
                     <button className="main--btn btn--email" >
-                        <img src={emaillogo} alt="Email Icon" className="email" /> Email 
+                        <img src={emaillogo} alt="Email Icon" className="email" /> Email
                     </button>
                 </a>
 
@@ -38,10 +38,9 @@ export default function Main() {
                     Passionate about technology. Student of the School of Development
                     Code C13, where my goal to improve and expand my knowledge of IT..</p>
                 <h3>Interest</h3>
-                <p>Técnico en desarrollo de software con experiencia en diseño,
-                    instalación y mantenimiento preventivo de software y hardware.
-                    Apasionado por la tecnología. Estudiante de la Escuela de Desarrollo
-                    Código C13, donde mi objetivo de mejorar y ampliar mis conocimientos de TI.</p>
+                <p>I love solving problems and I am dedicated to continuous learning in
+                    the field of software development, without neglecting my love for hardware
+                    and its composition.</p>
             </div>
         </div>
     )
